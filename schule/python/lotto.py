@@ -13,7 +13,7 @@ for i in range(1,7):
 
 lottozahlen = [] #Liste für Lottozahlen
 
-for i in range(6):
+while len(lottozahlen) < 7:
     zufallszahl = random.randint(1, 49) #aktuell gezogene Zahl
     if zufallszahl in lottozahlen: 
         continue
