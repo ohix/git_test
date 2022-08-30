@@ -3,13 +3,13 @@ import java.awt.event.*;
 import javax.swing.*;
 import javax.swing.event.*;
 
-public class ZweiHochApp_Swing extends JFrame {
+public class Addition_Swing extends JFrame {
 
   JLabel label_n;
   JTextField text_n, text_erg;
   JButton b;
 
-  public ZweiHochApp_Swing() {
+  public Addition_Swing() {
     setLayout(new FlowLayout());
     setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     setTitle("2 hoch n");
@@ -37,7 +37,7 @@ class Waechter_b implements ActionListener {
     int n=1;
     try {n = Integer.parseInt(text_n.getText());
         if (n>=0) {int erg = zweihoch(n);
-                   text_erg.setText(String.valueOf(erg));
+                  text_erg.setText(String.valueOf(erg));
         }  
     }catch (NumberFormatException err) {text_erg.setText("Error");}
   }
@@ -48,7 +48,7 @@ class Waechter_b implements ActionListener {
   }
 
   public static void main(String[] args) {
-    (new ZweiHochApp_Swing()).setVisible(true);
+    (new Addition_Swing()).setVisible(true);
   }
 
 }
