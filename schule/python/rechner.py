@@ -1,5 +1,5 @@
 first = int(input("Was ist deine erste Zahl? "))
-operator = input("Was ist dein operator? ")
+operator = input("Was ist dein Operator? ")
 second = int(input("Was ist deine erste Zahl? "))
 
 element = 0

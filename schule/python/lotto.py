@@ -30,4 +30,4 @@ richtige = 0
 for element in nutzer_zahlen:
     if element in lottozahlen:
         richtige+=1
-        print(str(element) + " ist in den Lottozahlen enthalten.")
+        print(str(element) + " ist in den Lottozahlen enthalten." + " Du hast " + str(richtige) + " Richtige.")
