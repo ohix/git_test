@@ -1,15 +1,17 @@
+//ZweiHochApp
+
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
 import javax.swing.event.*;
 
-public class Addition_Swing extends JFrame {
+public class ZweiHochApp_Swing extends JFrame {
 
   JLabel label_n;
   JTextField text_n, text_erg;
   JButton b;
 
-  public Addition_Swing() {
+  public ZweiHochApp_Swing() {
     setLayout(new FlowLayout());
     setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     setTitle("2 hoch n");
@@ -48,7 +50,7 @@ class Waechter_b implements ActionListener {
   }
 
   public static void main(String[] args) {
-    (new Addition_Swing()).setVisible(true);
+    (new ZweiHochApp_Swing()).setVisible(true);
   }
 
 }
