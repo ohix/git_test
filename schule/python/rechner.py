@@ -2,8 +2,6 @@ first = int(input("Was ist deine erste Zahl? "))
 operator = input("Was ist dein Operator? ")
 second = int(input("Was ist deine erste Zahl? "))
 
-element = 0
-
 if operator == "+":
     print(first + second)
 elif operator == "-":
