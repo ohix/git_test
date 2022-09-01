@@ -1,7 +1,7 @@
-#lotto
+
 import random
 
-nutzer_zahlen = [] #Liste für Benutzereingabe
+nutzer_zahlen = [] 
 
 for i in range(1,7):
     eingabe = int(input("Bitte geben Sie die " + str(i) + ". Zahl ein: "))
@@ -11,10 +11,10 @@ for i in range(1,7):
     nutzer_zahlen.append(eingabe)
 
 
-lottozahlen = [] #Liste für Lottozahlen
+lottozahlen = [] 
 
 while len(lottozahlen) < 7:
-    zufallszahl = random.randint(1, 49) #aktuell gezogene Zahl
+    zufallszahl = random.randint(1, 49) 
     if zufallszahl in lottozahlen: 
         continue
     lottozahlen.append(zufallszahl)
@@ -24,7 +24,7 @@ print ("Deine Zahlen: " + str(nutzer_zahlen))
 print ("Lottozahlen: " + str(lottozahlen))
 
 
-#Vergleich von Lottozahlen und Benutzereingabe
+
 richtige = 0
 
 for element in nutzer_zahlen:
