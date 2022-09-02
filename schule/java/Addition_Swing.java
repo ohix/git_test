@@ -41,16 +41,13 @@ class Waechter_b implements ActionListener {
     int n=0;
     int m=0;
     try {n = Integer.parseInt(text_n.getText()); m = Integer.parseInt(text_m.getText());
-        int erg = addit(n,m);
+        int erg = n+m;
         text_erg.setText(String.valueOf(erg)); 
     }catch (NumberFormatException err) {text_erg.setText("Error");}
   }
 }
 
-  int addit(int n, int m){
-    // if (n==0) {return 1;} else {return zweihoch(n-1)*2;}
-    return n + m;
-  }
+
 
   public static void main(String[] args) {
     (new Addition_Swing()).setVisible(true);
