@@ -1,9 +1,9 @@
-titel = "ohren"
-thema = "Ohren"
+titel = "sonstige"
+thema = "Sonstige"
 
 print(f"ambulante-behandlung-{titel}")
-print(f"ambulante-behandlung-{titel}-details")
 print(f"Ambulante Behandlung - {thema}")
+print(f"ambulante-behandlung-{titel}-details")
 print(f"Ambulante Behandlung - {thema} - Diagnose")
 print(f"Ambulante Behandlung - {thema} - Beschwerden/Symptome")
 print(f"Ambulante Behandlung - {thema} - erste Diagnose/Beschwerden - Datum")
