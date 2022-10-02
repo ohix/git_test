@@ -27,4 +27,3 @@ for i in range(laenge):
     print(str(case) + " | " + a + " | " + s)
 
 print("Pruefbitfolge: ", s)
-
